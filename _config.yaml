@@ -12,3 +12,13 @@ exclude:
   - assets/js
   - assets/options
 
+assets:
+  compress:
+    css: true
+    js: true
+  prefix: "/assets"
+  sources:
+    - "assets"
+    
+plugins: 
+  - jekyll-assets
