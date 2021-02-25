@@ -7,7 +7,7 @@ keep_files:
   - assets/css
   - assets/js
 host: "localhost"
-baseurl: ""
+baseurl: "https://comeduschool.github.io/dashboard-help/"
 exclude:
   - assets/scss
   - assets/js
