@@ -7,10 +7,6 @@ keep_files:
   - assets/js
 host: "localhost"
 baseurl: ""
-exclude:
-  - assets/scss
-  - assets/js
-  - assets/options
 
 assets:
   compress:
