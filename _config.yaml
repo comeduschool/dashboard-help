@@ -3,18 +3,14 @@
 # Server
 destination: _site
 keep_files:
+  - assets/app
   - assets/css
   - assets/js
+  - assets/data
+  - assets/img
+  - assets/options
+  - assets/plugins
 host: "localhost"
 baseurl: ""
-
-assets:
-  compress:
-    css: true
-    js: true
-  prefix: "/assets"
-  sources:
-    - "assets"
-    
 plugins: 
   - jekyll-assets
